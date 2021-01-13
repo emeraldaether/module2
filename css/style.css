@@ -9,8 +9,7 @@ body {
 	position: relative;
 }
 
-/*BACKGROUND COLOR*/
-
+/*TEXT AND BOX STYLING*/
 
 div.P1, div.P2, div.P3 {
 	border: 1px black solid;
@@ -19,7 +18,6 @@ div.P1, div.P2, div.P3 {
 }
 
 
-/*TEXT AND BOX STYLING*/
 h1 {
 	text-align: center;
 	width: 25%;
