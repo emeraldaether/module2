@@ -1,0 +1,100 @@
+/*BASE STYLING*/
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: Times New Roman, Georgia, serif;
+}
+
+
+/*BACKGROUND COLOR*/
+
+body {
+	background-color: #ffcccc;
+}
+
+div.P1, div.P2, div.P3 {
+	background-color: #ffffff;
+}
+
+/*TEXT AND BOX STYLING*/
+h1 {
+	text-align: center;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px black solid;
+	background-color: #993a3a;
+	color: #3a993a;
+}
+
+.container {
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+	position: relative;
+}
+
+	h2.P1 {
+		background-color: #99ff99;
+	}
+
+	h2.P2 {
+		right: -66.75%;
+		background-color: #ff9999;
+	}
+
+	h2.P3 {
+		background-color: #9999ff;
+	}
+
+
+/*LARGE DEVICES*/
+@media (min-width: 992px) {
+	div.box {
+		width: 33.33%;
+		float: left;
+		position: relative;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	div.P1, div.P2, div.P3 {
+		margin: 10px;
+		border: 2px black solid;
+		position: relative;
+	}
+
+	h2.P1, h2.P2, h2.P3 {
+		position: relative;
+		width: 33.33%;
+		text-align: center; 
+		border-width: 1px 1px 2px 2px;
+		border-style: solid;
+		border-color: black;
+		margin: 0px;
+		right: -66.66%
+		;
+	
+		}
+
+	h2.P2 {
+		right: -66.75%;
+	}
+
+	p.P1, p.P2, p.P3 {
+		position: relative;
+		
+		
+	}
+
+/*MEDIUM DEVICES*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*SMALL DEVICES*/
+@media (max-width: 767px) {
+}
