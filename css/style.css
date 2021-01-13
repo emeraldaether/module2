@@ -5,29 +5,28 @@
 	margin: 0px;
 	font-family: Times New Roman, Georgia, serif;
 }
-
+body {
+	position: relative;
+}
 
 /*BACKGROUND COLOR*/
 
-body {
-	background-color: #ffcccc;
-}
 
 div.P1, div.P2, div.P3 {
-	background-color: #ffffff;
-	border: 2px black solid;
+	border: 1px black solid;
 	position: relative;
+	background-color: #66af00;
 }
+
 
 /*TEXT AND BOX STYLING*/
 h1 {
 	text-align: center;
 	width: 25%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 2px black solid;
-	background-color: #993a3a;
-	color: #3a993a;
 }
 
 .container {
@@ -39,8 +38,20 @@ h1 {
 	position: relative;
 }
 
+	p.P1, p.P2, p.P3 {
+		padding: 15px;
+		
+		
+	}
+
+h2.P1, h2.P2, h2.P3 {
+	text-align: center; 
+	border: 1px black solid;
+	position: relative;
+	}
+
 	h2.P1 {
-		background-color: #99ff99;
+		background-color: #ffff99;
 	}
 
 	h2.P2 {
@@ -64,30 +75,16 @@ h1 {
 	}
 	
 	div.P1, div.P2, div.P3 {
-		margin: 10px;
+		margin: 10px 20px 10px 20px;
 	}
 
 	h2.P1, h2.P2, h2.P3 {
-		position: relative;
 		width: 33.33%;
 		text-align: center; 
-		border-width: 1px 1px 2px 2px;
-		border-style: solid;
-		border-color: black;
-		margin: 0px;
-		right: -66.66%;
-	
-		}
-
-	h2.P2 {
 		right: -66.75%;
+		top: -1px;
 	}
 
-	p.P1, p.P2, p.P3 {
-		position: relative;
-		
-		
-	}
 }
 
 /*MEDIUM DEVICES*/
@@ -96,8 +93,6 @@ h1 {
 		width: 50%;
 		position: relative;
 		float: left;
-		padding: 0px;
-		margin: 0px;
 	}
 	div#box3 {
 		width:100%;
@@ -110,11 +105,7 @@ h1 {
 	h2.P1, h2.P2, h2.P3 {
 		position: relative;
 		width: 50%;
-		text-align: center; 
-		border-width: 1px 1px 2px 2px;
-		border-style: solid;
-		border-color: black;
-		margin: 0px;
+		top: -1px;
 		right: -50.2%;
 		}
 
@@ -122,7 +113,7 @@ h1 {
 		position: relative;
 		width: 25%;
 		right: -75.1%;
-		top: -2%;
+		top: -1px;
 	}
 
 }
@@ -131,4 +122,26 @@ h1 {
 
 /*SMALL DEVICES*/
 @media (max-width: 767px) {
+
+	h1 {
+		width: 50%;
+	}
+
+	div.box {
+		width: 100%;
+		margin: 0px;
+		position: relative;
+	}
+
+	div.P1, div.P2, div.P3 {
+		margin: 20px 40px 20px 40px;
+	}
+
+	h2.P1, h2.P2, h2.P3 {
+		width: 40%;
+		right: -60.1%;
+		top: -1px;
+	}
+
+
 }
